@@ -29,5 +29,8 @@
     <ClInclude Include="CreationalDP\Singleton\Configuration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CreationalDP\Singleton\SingletonApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

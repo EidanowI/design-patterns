@@ -10,6 +10,8 @@ public:
 	Configuration& operator=(const Configuration& other) = delete;
 	Configuration& operator=(Configuration&& other) = delete;
 
+	const char* GetEmail();
+
 	static Configuration* GetInstance();
 	static void Terminate();
 

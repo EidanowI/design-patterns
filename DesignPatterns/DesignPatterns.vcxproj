@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClInclude Include="CreationalDP\Singleton\Configuration.h" />
     <ClInclude Include="CreationalDP\Singleton\LocalConfiguration.h" />
+    <ClInclude Include="CreationalDP\Singleton\SingletonApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

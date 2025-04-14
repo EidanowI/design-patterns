@@ -1,7 +1,12 @@
 #include <iostream>
+#include "CreationalDP/Singleton/SingletonApp.h"
 
 
 
 int main() {
-	std::cout << "Hello world!";
+	SingletonApp singleton_app = SingletonApp();
+	singleton_app.Run();
+	
+
+	Configuration::Terminate();
 }
