@@ -127,10 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CreationalDP\Factory\Factory.cpp" />
     <ClCompile Include="CreationalDP\Singleton\Singleton.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CreationalDP\Factory\DX11Renderer.h" />
+    <ClInclude Include="CreationalDP\Factory\DX12Renderer.h" />
+    <ClInclude Include="CreationalDP\Factory\IRenderer.h" />
+    <ClInclude Include="CreationalDP\Factory\IRendererFactory.h" />
+    <ClInclude Include="CreationalDP\Factory\OpenGLRenderer.h" />
     <ClInclude Include="CreationalDP\Singleton\Configuration.h" />
     <ClInclude Include="CreationalDP\Singleton\LocalConfiguration.h" />
     <ClInclude Include="CreationalDP\Singleton\SingletonApp.h" />

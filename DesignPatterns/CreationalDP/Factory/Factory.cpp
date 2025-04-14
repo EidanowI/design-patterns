@@ -2,6 +2,10 @@
 #include "DX12Renderer.h"
 #include "OpenGLRenderer.h"
 
+#include "DX11Factory.h"
+#include "DX12Factory.h"
+#include "OpenGLFactory.h"
+
 
 
 DX11Renderer::DX11Renderer() {
@@ -37,4 +41,40 @@ OpenGLRenderer::~OpenGLRenderer() {
 
 void OpenGLRenderer::Render() {
 	std::cout << "Render ass OpenGL";
+}
+
+
+DX11Factory::DX11Factory() {
+	std::cout << "Constructor of DX11Factory";
+}
+DX11Factory::~DX11Factory() {
+	std::cout << "Destructor of DX11Factory";
+}
+
+IRenderer* DX11Factory::CreateRenderer() {
+	return new DX11Renderer();
+}
+
+
+DX12Factory::DX12Factory() {
+	std::cout << "Constructor of DX12Factory";
+}
+DX12Factory::~DX12Factory() {
+	std::cout << "Destructor of DX12Factory";
+}
+
+IRenderer* DX12Factory::CreateRenderer() {
+	return new DX12Renderer();
+}
+
+
+OpenGLFactory::OpenGLFactory() {
+	std::cout << "Constructor of OpenGLFactory";
+}
+OpenGLFactory::~OpenGLFactory() {
+	std::cout << "Destructor of OpenGLFactory";
+}
+
+IRenderer* OpenGLFactory::CreateRenderer() {
+	return new OpenGLRenderer();
 }
