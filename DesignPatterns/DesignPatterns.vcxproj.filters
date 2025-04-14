@@ -21,6 +21,9 @@
     <ClCompile Include="CreationalDP\Singleton\Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CreationalDP\Factory\Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreationalDP\Singleton\LocalConfiguration.h">
@@ -30,6 +33,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CreationalDP\Singleton\SingletonApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\DX11Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\DX12Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\IRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\IRendererFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\OpenGLRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\DX11Factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\OpenGLFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\DX12Factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationalDP\Factory\FactoryApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
