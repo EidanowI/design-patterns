@@ -1,5 +1,6 @@
 #include "DX11Renderer.h"
 #include "DX12Renderer.h"
+#include "OpenGLRenderer.h"
 
 
 
@@ -24,4 +25,16 @@ DX12Renderer::~DX12Renderer() {
 
 void DX12Renderer::Render() {
 	std::cout << "Render ass DirectX12";
+}
+
+
+OpenGLRenderer::OpenGLRenderer() {
+	std::cout << "Constructor of OpenGLRenderer";
+}
+OpenGLRenderer::~OpenGLRenderer() {
+	std::cout << "Destructor of OpenGLRenderer";
+}
+
+void OpenGLRenderer::Render() {
+	std::cout << "Render ass OpenGL";
 }
