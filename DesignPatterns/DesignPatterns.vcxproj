@@ -145,6 +145,7 @@
     <ClInclude Include="CreationalDP\Singleton\Configuration.h" />
     <ClInclude Include="CreationalDP\Singleton\LocalConfiguration.h" />
     <ClInclude Include="CreationalDP\Singleton\SingletonApp.h" />
+    <ClInclude Include="StructuralDP\Decorator\BoldLine.h" />
     <ClInclude Include="StructuralDP\Decorator\DecoratorApp.h" />
     <ClInclude Include="StructuralDP\Decorator\FormatedLine.h" />
     <ClInclude Include="StructuralDP\Decorator\ILine.h" />

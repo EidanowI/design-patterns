@@ -77,5 +77,8 @@
     <ClInclude Include="StructuralDP\Decorator\FormatedLine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\BoldLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

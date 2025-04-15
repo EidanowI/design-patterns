@@ -4,11 +4,12 @@
 #include "ILine.h"
 #include "Line.h"
 #include "FormatedLine.h"
+#include "BoldLine.h"
 
 
 
 DecoratorApp::DecoratorApp() {
-	m_line = new Line("Hello");
+	m_line = new BoldLine(new Line("Hello"));
 }
 DecoratorApp::~DecoratorApp() {
 	delete m_line;
@@ -42,4 +43,16 @@ FormatedLine::~FormatedLine() {
 
 std::string FormatedLine::GetLine() {
 	return m_origin->GetLine();
+}
+
+
+BoldLine::BoldLine(ILine* pOrigin) : FormatedLine(pOrigin) {
+
+}
+BoldLine::~BoldLine() {
+
+}
+
+std::string BoldLine::GetLine() {
+	return "**" + FormatedLine::GetLine() + "**";
 }
