@@ -83,5 +83,8 @@
     <ClInclude Include="StructuralDP\Decorator\ItalicLine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\UnderlineLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

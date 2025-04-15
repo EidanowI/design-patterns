@@ -6,11 +6,12 @@
 #include "FormatedLine.h"
 #include "BoldLine.h"
 #include "ItalicLine.h"
+#include "UnderlineLine.h"
 
 
 
 DecoratorApp::DecoratorApp() {
-	m_pLine = new ItalicLine(new BoldLine(new Line("Hello")));
+	m_pLine = new UnderlineLine(new ItalicLine(new BoldLine(new Line("Hello"))));
 }
 DecoratorApp::~DecoratorApp() {
 	delete m_pLine;
@@ -68,4 +69,16 @@ ItalicLine::~ItalicLine() {
 
 std::string ItalicLine::GetLine() {
 	return "*" + FormatedLine::GetLine() + "*";
+}
+
+
+UnderlineLine::UnderlineLine(ILine* pOrigin) : FormatedLine(pOrigin) {
+
+}
+UnderlineLine::~UnderlineLine() {
+
+}
+
+std::string UnderlineLine::GetLine() {
+	return "<ins>" + FormatedLine::GetLine() + "</ins>";
 }

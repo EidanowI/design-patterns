@@ -151,6 +151,7 @@
     <ClInclude Include="StructuralDP\Decorator\ILine.h" />
     <ClInclude Include="StructuralDP\Decorator\ItalicLine.h" />
     <ClInclude Include="StructuralDP\Decorator\Line.h" />
+    <ClInclude Include="StructuralDP\Decorator\UnderlineLine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
