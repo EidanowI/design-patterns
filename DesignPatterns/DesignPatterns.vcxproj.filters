@@ -24,6 +24,9 @@
     <ClCompile Include="CreationalDP\Factory\Factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StructuralDP\Decorator\Decorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreationalDP\Singleton\LocalConfiguration.h">
@@ -60,6 +63,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CreationalDP\Factory\FactoryApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\DecoratorApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\ILine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\FormatedLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\BoldLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\ItalicLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuralDP\Decorator\UnderlineLine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

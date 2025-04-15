@@ -130,6 +130,7 @@
     <ClCompile Include="CreationalDP\Factory\Factory.cpp" />
     <ClCompile Include="CreationalDP\Singleton\Singleton.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StructuralDP\Decorator\Decorator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreationalDP\Factory\DX11Factory.h" />
@@ -144,6 +145,13 @@
     <ClInclude Include="CreationalDP\Singleton\Configuration.h" />
     <ClInclude Include="CreationalDP\Singleton\LocalConfiguration.h" />
     <ClInclude Include="CreationalDP\Singleton\SingletonApp.h" />
+    <ClInclude Include="StructuralDP\Decorator\BoldLine.h" />
+    <ClInclude Include="StructuralDP\Decorator\DecoratorApp.h" />
+    <ClInclude Include="StructuralDP\Decorator\FormatedLine.h" />
+    <ClInclude Include="StructuralDP\Decorator\ILine.h" />
+    <ClInclude Include="StructuralDP\Decorator\ItalicLine.h" />
+    <ClInclude Include="StructuralDP\Decorator\Line.h" />
+    <ClInclude Include="StructuralDP\Decorator\UnderlineLine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
