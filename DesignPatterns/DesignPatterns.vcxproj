@@ -149,6 +149,7 @@
     <ClInclude Include="StructuralDP\Decorator\DecoratorApp.h" />
     <ClInclude Include="StructuralDP\Decorator\FormatedLine.h" />
     <ClInclude Include="StructuralDP\Decorator\ILine.h" />
+    <ClInclude Include="StructuralDP\Decorator\ItalicLine.h" />
     <ClInclude Include="StructuralDP\Decorator\Line.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
