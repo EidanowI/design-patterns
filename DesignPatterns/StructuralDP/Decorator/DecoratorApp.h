@@ -11,5 +11,5 @@ public:
 	void Run();
 
 private:
-	ILine* m_line;
+	ILine* m_pLine;
 };

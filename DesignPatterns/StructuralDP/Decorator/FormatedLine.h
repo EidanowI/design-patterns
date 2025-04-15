@@ -5,11 +5,11 @@
 
 class FormatedLine : public ILine{
 public:
-	FormatedLine(ILine* origin);
+	FormatedLine(ILine* pOrigin);
 	~FormatedLine();
 
 	std::string GetLine() override;
 
 private:
-	ILine* m_origin;
+	ILine* m_pOrigin;
 };

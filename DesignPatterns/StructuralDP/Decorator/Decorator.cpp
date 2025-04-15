@@ -9,15 +9,15 @@
 
 
 DecoratorApp::DecoratorApp() {
-	m_line = new BoldLine(new Line("Hello"));
+	m_pLine = new BoldLine(new Line("Hello"));
 }
 DecoratorApp::~DecoratorApp() {
-	delete m_line;
+	delete m_pLine;
 }
 
 void DecoratorApp::Run() {
 	std::cout << "\n////// Decorator \\\\\\\\\\\\\n";
-	std::cout << m_line->GetLine() << '\n';
+	std::cout << m_pLine->GetLine() << '\n';
 	std::cout << "////// Decorator \\\\\\\\\\\\\n";
 }
 
@@ -34,15 +34,15 @@ std::string Line::GetLine() {
 }
 
 
-FormatedLine::FormatedLine(ILine* origin) : m_origin(origin){
+FormatedLine::FormatedLine(ILine* origin) : m_pOrigin(origin){
 
 }
 FormatedLine::~FormatedLine() {
-	delete m_origin;
+	delete m_pOrigin;
 }
 
 std::string FormatedLine::GetLine() {
-	return m_origin->GetLine();
+	return m_pOrigin->GetLine();
 }
 
 
